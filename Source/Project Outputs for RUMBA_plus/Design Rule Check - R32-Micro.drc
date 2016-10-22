@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Git\R32-Micro\Source\R32-Micro.PcbDoc
 Date     : 10/22/2016
-Time     : 9:52:01 PM
+Time     : 11:01:51 PM
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
    Violation between Short-Circuit Constraint: Between Area Fill (12.8mm,11.9mm) (13.1mm,12.1mm) on Solder Side And Pad J10-1(13.401mm,12mm) on Solder Side Location : [X = 203.092mm][Y = 152mm]
@@ -280,6 +280,9 @@ Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (0.13mm < 0.2mm) Between Text "+" (70.191mm,0.209mm) on Top Overlay And Arc (70.826mm,1.225mm) on Top Overlay Silk Text to Silk Clearance [0.13mm]
    Violation between Silk To Silk Clearance Constraint: (0.042mm < 0.2mm) Between Text "+" (56.618mm,29.855mm) on Top Overlay And Arc (55.889mm,30.353mm) on Top Overlay Silk Text to Silk Clearance [0.042mm]
    Violation between Silk To Silk Clearance Constraint: (0.044mm < 0.2mm) Between Text "-" (56.37mm,28.56mm) on Top Overlay And Arc (55.889mm,27.813mm) on Top Overlay Silk Text to Silk Clearance [0.044mm]
+   Violation between Silk To Silk Clearance Constraint: (0.08mm < 0.2mm) Between Text "ESP_PROG" (1.215mm,36.883mm) on Top Overlay And Track (0.762mm,38.1mm)(3.302mm,38.1mm) on Top Overlay Silk Text to Silk Clearance [0.08mm]
+   Violation between Silk To Silk Clearance Constraint: (0.07mm < 0.2mm) Between Text "SDIO" (3.609mm,48.093mm) on Top Overlay And Track (3.302mm,38.1mm)(3.302mm,53.34mm) on Top Overlay Silk Text to Silk Clearance [0.07mm]
+   Violation between Silk To Silk Clearance Constraint: (0.08mm < 0.2mm) Between Text "ESP_PROG" (1.215mm,36.883mm) on Top Overlay And Track (3.302mm,38.1mm)(3.302mm,53.34mm) on Top Overlay Silk Text to Silk Clearance [0.08mm]
    Violation between Silk To Silk Clearance Constraint: (Collision < 0.2mm) Between Text "Z-STOP" (55.968mm,56.288mm) on Top Overlay And Track (54.6mm,57.398mm)(62.22mm,57.398mm) on Top Overlay Silk Text to Silk Clearance [0mm]
    Violation between Silk To Silk Clearance Constraint: (Collision < 0.2mm) Between Text "Y-STOP" (37.426mm,56.288mm) on Top Overlay And Track (36.058mm,57.398mm)(43.678mm,57.398mm) on Top Overlay Silk Text to Silk Clearance [0mm]
    Violation between Silk To Silk Clearance Constraint: (Collision < 0.2mm) Between Text "X-STOP" (18.884mm,56.288mm) on Top Overlay And Track (17.516mm,57.398mm)(25.136mm,57.398mm) on Top Overlay Silk Text to Silk Clearance [0mm]
@@ -351,7 +354,6 @@ Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (0.131mm < 0.2mm) Between Text "+" (56.618mm,29.855mm) on Top Overlay And Track (55mm,27.02mm)(55mm,31.16mm) on Top Overlay Silk Text to Silk Clearance [0.131mm]
    Violation between Silk To Silk Clearance Constraint: (0.037mm < 0.2mm) Between Text "E-STOP" (74.51mm,56.288mm) on Top Overlay And Track (76.792mm,56.05mm)(77.892mm,56.05mm) on Top Overlay Silk Text to Silk Clearance [0.037mm]
    Violation between Silk To Silk Clearance Constraint: (0.042mm < 0.2mm) Between Text "E-STOP" (74.51mm,56.288mm) on Top Overlay And Track (76.792mm,55.25mm)(76.792mm,56.05mm) on Top Overlay Silk Text to Silk Clearance [0.042mm]
-   Violation between Silk To Silk Clearance Constraint: (0.07mm < 0.2mm) Between Text "SDIO" (3.609mm,47.077mm) on Top Overlay And Track (3.302mm,39.37mm)(3.302mm,49.53mm) on Top Overlay Silk Text to Silk Clearance [0.07mm]
    Violation between Silk To Silk Clearance Constraint: (0.191mm < 0.2mm) Between Text "Z-PROBE" (96.842mm,43.661mm) on Top Overlay And Track (97.27mm,42.83mm)(97.27mm,52.99mm) on Top Overlay Silk Text to Silk Clearance [0.191mm]
    Violation between Silk To Silk Clearance Constraint: (0.07mm < 0.2mm) Between Text "I2C" (32.711mm,10.448mm) on Top Overlay And Track (32.258mm,10.141mm)(42.418mm,10.141mm) on Top Overlay Silk Text to Silk Clearance [0.07mm]
    Violation between Silk To Silk Clearance Constraint: (0.141mm < 0.2mm) Between Region (0 hole(s)) Top Overlay And Text "+" (61.025mm,0.392mm) on Top Overlay Silk Text to Silk Clearance [0.141mm]
@@ -372,7 +374,7 @@ Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (0.128mm < 0.2mm) Between Region (0 hole(s)) Top Overlay And Text "+" (56.618mm,29.855mm) on Top Overlay Silk Text to Silk Clearance [0.128mm]
    Violation between Silk To Silk Clearance Constraint: (0.115mm < 0.2mm) Between Text "5V" (62.318mm,16.749mm) on Bottom Overlay And Text "FANS" (62.318mm,15.459mm) on Bottom Overlay Silk Text to Silk Clearance [0.115mm]
    Violation between Silk To Silk Clearance Constraint: (0.115mm < 0.2mm) Between Text "VIN" (62.318mm,14.169mm) on Bottom Overlay And Text "FANS" (62.318mm,15.459mm) on Bottom Overlay Silk Text to Silk Clearance [0.115mm]
-Rule Violations :100
+Rule Violations :102
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
@@ -381,5 +383,5 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 
-Violations Detected : 341
+Violations Detected : 343
 Time Elapsed        : 00:00:04
