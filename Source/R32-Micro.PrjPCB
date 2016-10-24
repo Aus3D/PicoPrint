@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YWUCEPJK
 
 [Document4]
-DocumentPath=..\..\RUMBA-Plus\Source\RUMBA_v21\RUMBA_v2.LibPkg
+DocumentPath=Library\picoprint_library.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,41 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\..\RUMBA32\Source\Library\RUMBA_v21\RUMBA_v2.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CYVXAWEE
-
-[Document6]
-DocumentPath=..\..\RUMBA32\Source\Library\RUMBA_v21\RUMBA_V21.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RGBEINYF
-
-[Document7]
-DocumentPath=..\..\RUMBA32\Source\Library\RUMBA_v21\RUMBA_v2.LibPkg
+DocumentPath=Library\picoprint_library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,8 +123,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=F:\Dropbox\Stuff\Altium\Projects\Integrated_Library\Integrated_Library.LibPkg
+[Document6]
+DocumentPath=Library\picoprint_library.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
