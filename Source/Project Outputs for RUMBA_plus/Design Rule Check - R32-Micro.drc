@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Git\R32-Micro\Source\R32-Micro.PcbDoc
 Date     : 10/28/2016
-Time     : 6:15:51 PM
+Time     : 8:10:39 PM
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
    Violation between Short-Circuit Constraint: Between Area Fill (12.8mm,11.9mm) (13.1mm,12.1mm) on Solder Side And Pad J10-1(13.401mm,12mm) on Solder Side Location : [X = 203.092mm][Y = 152mm]
@@ -529,4 +529,4 @@ Rule Violations :0
 
 
 Violations Detected : 488
-Time Elapsed        : 00:00:05
+Time Elapsed        : 00:00:04
