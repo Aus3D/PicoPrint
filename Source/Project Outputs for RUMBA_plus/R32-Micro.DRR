@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: R32-Micro.PcbDoc   11/14/2016  12:07:33 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Component Side to Solder Side
+ASCII RoundHoles File : R32-Micro-RoundHoles.TXT
+ASCII SlotHoles File : R32-Micro-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             411       PTH        1162.70mm (45.78inch)
+T2      0.4mm (16mil)                                             Round             146       PTH        462.25mm (18.20inch)
+T3      0.5mm (20mil)                                             Round             24        PTH        46.12mm (1.82inch)
+T4      0.6mm (24mil)                                             Slot              2         PTH        15.43mm (0.61inch)
+T5      0.85mm (33mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T6      0.9mm (35mil)                                             Round             147       PTH        741.07mm (29.18inch)
+T7      1mm (39mil)                                               Round             4         PTH        17.50mm (0.69inch)
+T8      1.2mm (47mil)                                             Round             6         PTH        25.00mm (0.98inch)
+T9      3.2mm (126mil)                                            Round             4         PTH        242.00mm (9.53inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              746
+
+Total Processing Time (hh:mm:ss) : 00:00:00
