@@ -1,16 +1,31 @@
 Protel Design System Design Rule Check
 PCB File : D:\Git\R32-Micro\Source\R32-Micro.PcbDoc
-Date     : 11/14/2016
-Time     : 12:05:28 AM
+Date     : 11/21/2016
+Time     : 10:15:59 PM
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad C7-2(41.6mm,26.7mm) on Component Side And Track (45.99mm,24.5mm)(46.857mm,24.5mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Track (14.35mm,27.75mm)(14.9mm,27.75mm) on Component Side And Track (22.45mm,31mm)(22.45mm,31.65mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (77.359mm,21.95mm)(77.75mm,21.95mm) on Component Side And Pad LD5-2(79.45mm,18.15mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Track (21.1mm,15.6mm)(21.7mm,15.6mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net MPU_GND Between Pad U2-74(23.54mm,16.66mm) on Component Side And Track (40.35mm,18.7mm)(40.5mm,18.55mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net NetLD10_1 Between Pad R61-1(41.9mm,29.45mm) on Component Side And Pad LD10-1(42.25mm,30.75mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net STAT_LED Between Pad U2-25(38.64mm,28.16mm) on Component Side And Pad R61-2(40.9mm,29.45mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Pad C49-2(72.753mm,36.727mm) on Component Side 
+   Violation between Un-Routed Net Constraint: Net VIN Between Pad D2-K(88.201mm,24.214mm) on Component Side And Pad EXP3-20(98.44mm,14.07mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net X_DIR Between Track (14.054mm,40.022mm)(14.054mm,40.854mm) on Component Side And Pad X_STEP-2(14.95mm,38.65mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net X_DIR Between Pad X_STEP-2(14.95mm,38.65mm) on Multi-Layer And Track (16.864mm,36.7mm)(19.65mm,36.7mm) on Solder Side 
+   Violation between Un-Routed Net Constraint: Net X_STEP Between Pad X_STEP-1(16.22mm,38.65mm) on Multi-Layer And Track (17.15mm,37.1mm)(19.25mm,37.1mm) on Solder Side 
+   Violation between Un-Routed Net Constraint: Net X_STEP Between Track (14.846mm,40.104mm)(14.846mm,40.909mm) on Component Side And Pad X_STEP-1(16.22mm,38.65mm) on Multi-Layer 
+Rule Violations :13
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.195mm < 0.2mm) Between Track (29.67mm,32.007mm)(29.7mm,31.977mm) on Solder Side And Via (30.25mm,31.75mm) from Component Side to Solder Side 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Track (29.7mm,31.451mm)(29.7mm,31.977mm) on Solder Side And Via (30.25mm,31.75mm) from Component Side to Solder Side 
+Rule Violations :2
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
@@ -28,11 +43,15 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Via (21.1mm,15.6mm) from Component Side to Solder Side 
+   Violation between Net Antennae: Via (22.45mm,31mm) from Component Side to Solder Side 
+   Violation between Net Antennae: Track (16.864mm,36.7mm)(19.65mm,36.7mm) on Solder Side 
+   Violation between Net Antennae: Track (17.15mm,37.1mm)(19.25mm,37.1mm) on Solder Side 
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 
-Violations Detected : 0
-Time Elapsed        : 00:00:05
+Violations Detected : 19
+Time Elapsed        : 00:00:03
