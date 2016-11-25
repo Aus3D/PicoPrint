@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\Git\R32-Micro\Source\R32-Micro.PcbDoc
-Date     : 11/23/2016
-Time     : 11:52:10 PM
+Date     : 11/25/2016
+Time     : 12:33:22 PM
+
+Processing Rule : Matched Lengths(Tolerance=0.75mm) ((InNet('USB_D_N') OR InNet('USB_D_P')))
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -25,14 +28,20 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Area Fill (24.05mm,4.65mm) (24.4mm,4.9mm) on Solder Side And Pad J1-1(24.2mm,5.118mm) on Solder Side 
+   Violation between Clearance Constraint: (0mm < 0.2mm) Between Area Fill (90mm,34.5mm) (90.2mm,34.8mm) on Solder Side And Pad J9-1(89.75mm,34.65mm) on Solder Side 
+   Violation between Clearance Constraint: (0.068mm < 0.2mm) Between Area Fill (24.05mm,4.65mm) (24.4mm,4.9mm) on Solder Side And Track (24.318mm,5.118mm)(25mm,5.8mm) on Solder Side 
+   Violation between Clearance Constraint: (0.068mm < 0.2mm) Between Area Fill (24.05mm,4.65mm) (24.4mm,4.9mm) on Solder Side And Track (24.2mm,5.118mm)(24.318mm,5.118mm) on Solder Side 
+   Violation between Clearance Constraint: (0.125mm < 0.2mm) Between Area Fill (90mm,34.5mm) (90.2mm,34.8mm) on Solder Side And Track (89.75mm,34.65mm)(89.75mm,35.45mm) on Solder Side 
+Rule Violations :5
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Area Fill (24.05mm,4.65mm) (24.4mm,4.9mm) on Solder Side And Pad J1-1(24.2mm,5.118mm) on Solder Side Location : [X = 214.225mm][Y = 144.884mm]
+Rule Violations :1
 
 
-Violations Detected : 0
-Time Elapsed        : 00:00:03
+Violations Detected : 6
+Time Elapsed        : 00:00:04
