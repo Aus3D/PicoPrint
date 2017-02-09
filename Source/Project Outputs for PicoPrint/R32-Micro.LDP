@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Git\R32-Micro\Source\R32-Micro.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=r32-micro-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=r32-micro-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

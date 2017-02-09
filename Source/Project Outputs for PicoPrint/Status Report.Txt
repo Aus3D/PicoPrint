@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [R32-Micro.PrjPCB]
+   Generated File[R32-Micro.GTL]
+   Generated File[R32-Micro.G1]
+   Generated File[R32-Micro.G2]
+   Generated File[R32-Micro.GBL]
+   Generated File[R32-Micro.GPT]
+   Generated File[R32-Micro.GTO]
+   Generated File[R32-Micro.GTP]
+   Generated File[R32-Micro.GTS]
+   Generated File[R32-Micro.GBS]
+   Generated File[R32-Micro.GBP]
+   Generated File[R32-Micro.GBO]
+   Generated File[R32-Micro.GM4]
+   Generated File[R32-Micro.RUL]
+   Generated File[R32-Micro.EXTREP]
+   Generated File[R32-Micro.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 1:56:38 PM On 26/01/2017
