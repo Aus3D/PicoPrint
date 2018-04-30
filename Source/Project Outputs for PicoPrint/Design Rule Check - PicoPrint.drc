@@ -1,13 +1,25 @@
 Protel Design System Design Rule Check
 PCB File : G:\Git\R32-Micro\Source\PicoPrint.PcbDoc
 Date     : 30/04/2018
-Time     : 9:59:22 PM
+Time     : 10:52:13 PM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side And Pad J8-1(85.8mm,-32.475mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side And Pad J8-2(85.8mm,-33.175mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (18.774mm,-84.458mm)(18.774mm,-83.758mm) on Solder Side And Pad J2-2(18.774mm,-83.758mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (18.774mm,-83.758mm)(20.806mm,-83.758mm) on Solder Side And Track (18.774mm,-84.458mm)(18.774mm,-83.758mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (85.8mm,-32.475mm)(85.8mm,-30.775mm) on Solder Side And Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (85.8mm,-33.175mm)(87.5mm,-33.175mm) on Solder Side And Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side 
+Rule Violations :6
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side And Pad J8-1(85.8mm,-32.475mm) on Solder Side Location : [X = 290.3mm][Y = 200.226mm]
+   Violation between Short-Circuit Constraint: Between Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side And Pad J8-2(85.8mm,-33.175mm) on Solder Side Location : [X = 290.3mm][Y = 199.674mm]
+   Violation between Short-Circuit Constraint: Between Track (18.774mm,-84.458mm)(18.774mm,-83.758mm) on Solder Side And Pad J2-2(18.774mm,-83.758mm) on Solder Side Location : [X = 223.274mm][Y = 148.943mm]
+   Violation between Short-Circuit Constraint: Between Track (18.774mm,-83.758mm)(20.806mm,-83.758mm) on Solder Side And Track (18.774mm,-84.458mm)(18.774mm,-83.758mm) on Solder Side Location : [X = 223.274mm][Y = 149.017mm]
+   Violation between Short-Circuit Constraint: Between Track (85.8mm,-32.475mm)(85.8mm,-30.775mm) on Solder Side And Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side Location : [X = 290.3mm][Y = 200.225mm]
+   Violation between Short-Circuit Constraint: Between Track (85.8mm,-33.175mm)(87.5mm,-33.175mm) on Solder Side And Track (85.8mm,-33.175mm)(85.8mm,-32.475mm) on Solder Side Location : [X = 290.3mm][Y = 199.675mm]
+Rule Violations :6
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
@@ -28,7 +40,8 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (18.774mm,-84.458mm)(18.774mm,-83.758mm) on Solder Side 
+Rule Violations :1
 
 Processing Rule : Matched Lengths(Tolerance=0.75mm) ((InNet('USB_D_N') OR InNet('USB_D_P')))
 Rule Violations :0
@@ -37,5 +50,5 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 0
-Time Elapsed        : 00:00:04
+Violations Detected : 13
+Time Elapsed        : 00:00:05
