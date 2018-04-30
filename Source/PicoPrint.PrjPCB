@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for RUMBA_plus
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -241,25 +241,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for RUMBA_plus\Design Rule Check - PicoPrint.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Drawn By
-Value=Chris Barr
+Name=Project URL 2
+Value=www.aus3d.com/picoprint
 
 [Parameter2]
-Name=Project License
-Value=GPLv3
+Name=Project URL 1
+Value=github.com/Aus3D/PicoPrint
 
 [Parameter3]
 Name=Project Revision
 Value=0.3A
 
 [Parameter4]
-Name=Project URL 1
-Value=github.com/Aus3D/PicoPrint
+Name=Project License
+Value=GPLv3
 
 [Parameter5]
-Name=Project URL 2
-Value=www.aus3d.com/picoprint
+Name=Drawn By
+Value=Chris Barr
 
 [Configuration1]
 Name=Default Configuration
@@ -306,9 +310,6 @@ SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
-[Generic_EDE]
-OutputDir=Project Outputs for RUMBA_plus
-
 [Generic_SignalIntegritySimulation]
 SignalIntegrityInitialised=-1
 TrackImpedance=100
@@ -322,6 +323,9 @@ StimLevel=0
 StimStartTime=1E-8
 StimStopTime=6E-8
 StimPeriodTime=1E-7
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
