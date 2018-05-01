@@ -1,9 +1,13 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [PicoPrint.PrjPCB]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PicoPrint.PrjPCB]
+   Generated File[PicoPrint-RoundHoles.TXT]
+   Generated File[PicoPrint-SlotHoles.TXT]
+   Generated File[PicoPrint.LDP]
+   Generated File[PicoPrint.DRR]
 
 
-Files Generated   : 0
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 8:20:33 PM On 1/05/2018
+Finished Output Generation At 8:32:15 PM On 1/05/2018
