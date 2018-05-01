@@ -2,15 +2,15 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=D:\Git\R32-Micro\Source\.PDF
+OutputFilePath2=G:\Git\R32-Micro\Source\.PDF
 ReleaseManaged2=0
-OutputBasePath2=D:\Git\R32-Micro\Source\
+OutputBasePath2=G:\Git\R32-Micro\Source\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=PicoPrint.pdf
+OutputFileName2=PicoPrint_v03a.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -82,7 +82,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Git\R32-Micro\Source\.PDF
+RelativeOutputPath2=G:\Git\R32-Micro\Source\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
