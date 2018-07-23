@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: PicoPrint.PcbDoc   1/05/2018  8:32:15 PM
+NCDrill File Report For: PicoPrint.PcbDoc   29/05/2018  5:35:04 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Component Side to Solder Side
@@ -8,9 +8,9 @@ ASCII SlotHoles File : PicoPrint-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             278       PTH        1115.51mm (43.92inch)
+T1      0.3mm (12mil)                                             Round             275       PTH        1126.82mm (44.36inch)
 T2      0.35mm (14mil)                                            Round             180       PTH        419.70mm (16.52inch)
-T3      0.4mm (16mil)                                             Round             67        PTH        183.11mm (7.21inch)
+T3      0.4mm (16mil)                                             Round             76        PTH        198.86mm (7.83inch)
 T4      0.6mm (24mil)                                             Round             15        PTH        79.34mm (3.12inch)
 T5      0.6mm (24mil)                                             Slot              2         PTH        15.43mm (0.61inch)
 T6      0.85mm (33mil)                                            Round             2         PTH        5.00mm (0.20inch)
@@ -19,6 +19,6 @@ T8      1mm (39mil)                                               Round         
 T9      1.2mm (47mil)                                             Round             6         PTH        35.00mm (1.38inch)
 T10     3.2mm (126mil)                                            Round             4         PTH        327.08mm (12.88inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              719
+Totals                                                                              725
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
