@@ -1,25 +1,25 @@
 Protel Design System Design Rule Check
 PCB File : G:\Git\R32-Micro\Source\PicoPrint.PcbDoc
-Date     : 1/05/2018
-Time     : 1:39:07 PM
+Date     : 23/08/2018
+Time     : 8:52:27 PM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Pad J8-3(100.3mm,58.9mm) on Solder Side 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Pad J8-2(100.3mm,59.6mm) on Solder Side 
-   Violation between Clearance Constraint: (Collision < 0.2mm) Between Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side And Pad J2-2(33.274mm,9.017mm) on Solder Side 
-   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (33.274mm,9.017mm)(35.306mm,9.017mm) on Solder Side And Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Pad J2-2(33.274mm,9.017mm) on Solder Side And Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Pad J8-2(100.3mm,59.6mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Pad J8-3(100.3mm,58.9mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side 
    Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (100.3mm,58.5mm)(100.3mm,58.9mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side 
    Violation between Clearance Constraint: (0.05mm < 0.18mm) Between Track (100.3mm,58.5mm)(100.7mm,58.1mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side 
-   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (100.3mm,59.6mm)(102mm,59.6mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Track (99.56mm,59.6mm)(100.3mm,59.6mm) on Solder Side 
+   Violation between Clearance Constraint: (Collision < 0.18mm) Between Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side And Track (33.274mm,9.017mm)(35.306mm,9.017mm) on Solder Side 
 Rule Violations :7
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Pad J8-3(100.3mm,58.9mm) on Solder Side Location : [X = 290.3mm][Y = 198.974mm]
-   Violation between Short-Circuit Constraint: Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Pad J8-2(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 199.526mm]
-   Violation between Short-Circuit Constraint: Between Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side And Pad J2-2(33.274mm,9.017mm) on Solder Side Location : [X = 223.274mm][Y = 148.943mm]
-   Violation between Short-Circuit Constraint: Between Track (33.274mm,9.017mm)(35.306mm,9.017mm) on Solder Side And Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side Location : [X = 223.274mm][Y = 149.017mm]
+   Violation between Short-Circuit Constraint: Between Pad J2-2(33.274mm,9.017mm) on Solder Side And Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side Location : [X = 223.274mm][Y = 148.943mm]
+   Violation between Short-Circuit Constraint: Between Pad J8-2(100.3mm,59.6mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 199.526mm]
+   Violation between Short-Circuit Constraint: Between Pad J8-3(100.3mm,58.9mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 198.974mm]
    Violation between Short-Circuit Constraint: Between Track (100.3mm,58.5mm)(100.3mm,58.9mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 198.975mm]
-   Violation between Short-Circuit Constraint: Between Track (100.3mm,59.6mm)(102mm,59.6mm) on Solder Side And Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 199.525mm]
+   Violation between Short-Circuit Constraint: Between Track (100.3mm,58.9mm)(100.3mm,59.6mm) on Solder Side And Track (99.56mm,59.6mm)(100.3mm,59.6mm) on Solder Side Location : [X = 290.3mm][Y = 199.55mm]
+   Violation between Short-Circuit Constraint: Between Track (33.274mm,8.317mm)(33.274mm,9.017mm) on Solder Side And Track (33.274mm,9.017mm)(35.306mm,9.017mm) on Solder Side Location : [X = 223.274mm][Y = 149.017mm]
 Rule Violations :6
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
@@ -52,4 +52,5 @@ Rule Violations :0
 
 
 Violations Detected : 14
-Time Elapsed        : 00:00:05
+Waived Violations : 0
+Time Elapsed        : 00:00:01

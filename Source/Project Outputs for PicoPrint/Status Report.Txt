@@ -1,9 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of Project [PicoPrint.PrjPCB]
+   Generated File[Pick Place for PicoPrint.csv]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:04:26 PM On 2/08/2018
+Finished Output Generation At 10:02:12 PM On 23/08/2018

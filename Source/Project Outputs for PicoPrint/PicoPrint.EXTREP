@@ -1,18 +1,18 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PicoPrint.GBR   29/05/2018  5:33:08 PM
+Gerber File Extension Report For: PicoPrint.GBR   23/08/2018  10:01:19 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
 .GTL                Component Side                          
 .G1                 Ground Plane                            
 .G2                 Power Plane                             
 .GBL                Solder Side                             
-.GTO                Top Overlay                             
-.GTP                Top Paste                               
-.GTS                Top Solder                              
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
