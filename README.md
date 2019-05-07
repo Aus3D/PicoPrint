@@ -4,11 +4,13 @@ PicoPrint is a 32-bit 3D printer control board, designed to be fast, quiet, and 
 
 PicoPrint is still in active development, and some specifications are not yet finalised. Once the design has been finalised, this page will be updated with detailed information.
 
+## Image
+![PicoPrint Pinout](https://raw.githubusercontent.com/Aus3D/PicoPrint/master/Resources/Images/pinout.png "PicoPrint Pinout")
+
 ## Specifications
 * 32-bit STM32F446VET6 Microcontroller
   * 180MHz core clock speed
   * 512kB Flash Memory
-    * 16kB Bootloader + 32kB EEPROM Emulation = 464kB Available
   * 128kB SRAM
   * Floating Point Unit
 * 5 x TMC2130 Stepper Drivers
@@ -45,20 +47,8 @@ PicoPrint is still in active development, and some specifications are not yet fi
     * 5V from USB is fused (200mA self-resetting PTC) to protect host device
     * 5V Buck Regulator implements overcurrent, overtemperature, and short-circuit protection
     * 3.3V Linear Regulator implements overcurrent and overtemperature protection
-    * Power rail to endstops and z-probe is fused (200mA self-resetting PTC)
     * Main power input can be monitored by ADC channel to measure input voltage (firmware dependent)
   * Microcontroller Pin Protection
     * Dedicated ESD-protection IC on USB interface
     * Thermistors + Endstops + Z-Probe protected against accidental connection to ±30V by diode clipping circuit
       * Endstops are safe to use with 5/12/24V signals if desired
-  
-  
- 
-  
-
-
-
-## Firmware
-PicoPrint is designed to run the Marlin 3D printer firmware. A version of Marlin currently running on PicoPrint can be found [here](https://github.com/Aus3D/Marlin/tree/bugfix-2.0.x-F446-PicoPrint).
-
-Compiling and uploading the Marlin firmware will require the Arduino IDE, and a fork of the STM32Generic Hardware Core, [here](https://github.com/chrissbarr/STM32GENERIC/tree/F446VE).
